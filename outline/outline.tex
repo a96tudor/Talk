@@ -1,0 +1,63 @@
+\documentclass{article}
+\author{Tudor Avram}
+\date{11 Feb 2017}
+\title{Using Neural Networks to Generate Image Captions \\ - \\ --- Talk outline --- } 
+
+\begin{document}
+	\maketitle
+	\begin{enumerate}
+		\item \textbf{Intro to Neural Networks --- 15 min} 
+			\begin{enumerate}
+				\item \textit{Deep Neural Networks --- 7 min}	
+					\begin{enumerate}
+						\item What is a DNN?  --- 1 min
+						\item Single Neuron Model --- 2 min \\ 
+									-- Weighted sum \\
+									-- output  = $P(1|parameters)$
+						\item Backpropagation --- 4 mins \\
+									-- 2 phases of the algorithm: 
+									\begin{enumerate}
+										\item Propagation
+										\item Weights update
+									\end{enumerate}
+					\end{enumerate}
+				\item \textit{Convolutional Neural Networks --- 6 min}
+					\begin{enumerate}
+						\item Comparison with DNNs --- 2 min
+						\item What is convolution?    --- 2 min \\
+								-- Parallel to signal processing
+						\item Convolution layer			--- 1 min
+						\item MaxPooling layer 			--- 1 min
+					\end{enumerate}
+				\item \textit{Recap on NNs --- 2 min}
+					\begin{enumerate}
+						\item General Recap --- 1 min
+						\item Application example --- 1 min \\
+								-- see what-dog.net
+					\end{enumerate}  
+			\end{enumerate}
+		\item \textbf{Generating Captions from images -- 13 min} 
+			\begin{enumerate}
+				\item \textit{Brief overview of the entire system -- 1 min}
+				\item \textit{Computer Vision CNN (Generating labels) -- 4 min}
+					\begin{enumerate}
+						\item Why CNN? -- 1 min\\
+							-- Explain why CNN is the best solution for image processing
+						\item CNN model for getting 1 label -- 2 min
+						\item Extending 2.a.ii to multi-labeling -- 1 min
+					\end{enumerate}
+				\item \textit{Using RNN to generate the captions -- 7 min}
+					\begin{enumerate}
+						\item What is an RNN? -- 1 min
+						\item Brief description of the system -- 2 min
+						\item LSTM-based Sentence Generator 
+							\begin{enumerate}
+								\item What is LSTM? -- 1 min
+								\item LSTM memory cell -- 3 min
+							\end{enumerate}
+					\end{enumerate}
+				\item \textit{Overall Loss Function -- 1 min}
+			\end{enumerate}
+		\item \textbf{Demo -- 2 min}\textsl{\textsl{}}
+	\end{enumerate}
+\end{document}
