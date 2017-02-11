@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.18)  11 FEB 2017 13:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.18)  11 FEB 2017 14:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -52,11 +52,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 [2] (./outline.aux) ) 
 Here is how much of TeX's memory you used:
- 231 strings out of 493014
- 2489 string characters out of 6133350
+ 229 strings out of 493014
+ 2468 string characters out of 6133350
  58601 words of memory out of 5000000
- 3848 multiletter control sequences out of 15000+600000
- 7682 words of font info for 27 fonts, out of 8000000 for 9000
+ 3847 multiletter control sequences out of 15000+600000
+ 7329 words of font info for 26 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  23i,6n,17p,135b,324s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/ams
@@ -67,7 +67,7 @@ s/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmr17.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmti10.pfb>
-Output written on outline.pdf (2 pages, 89170 bytes).
+Output written on outline.pdf (2 pages, 90405 bytes).
 PDF statistics:
  39 PDF objects out of 1000 (max. 8388607)
  27 compressed objects within 1 object stream
